@@ -53,9 +53,71 @@ a{
 
 }
 
-span{
+span:first-of-type{
     font-size: 50px;
     font-family: 'Satisfy', cursive;
 }
     
 
+.productos img{
+    display: block;
+
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.productos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.productos p{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    margin-left: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid palegreen;
+}
+
+.productos div{
+    background-color: white;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+p .precio{
+    display: block;
+    width: 100px;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 70px;
+    margin: 0;
+    color: tan;
+}
+
+footer div p:nth-of-type(1){
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p{
+    cursor: pointer;
+}
