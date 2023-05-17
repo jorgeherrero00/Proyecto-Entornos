@@ -1,0 +1,327 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto&family=Satisfy&display=swap');
+  *{
+    background-color: #3F494A;
+    color: palegreen;
+    font-family: 'Poppins', sans-serif;}
+
+.menu2{
+    padding: 5px;
+    display: inline-flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    padding-left: 710px;
+}
+
+.menu2 li{
+    padding: 5px;
+    text-shadow: 3px 3px 8px palegreen;
+}
+
+.mapa{
+
+    border: 1px solid palegreen;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+.menu1{
+    
+        padding: 5px;
+        display: inline-flex;
+        list-style: none;
+        gap: 10px;
+        justify-content: start;
+        font-size: 30px;
+        margin-left: 20px;
+   
+}
+
+.menu1:hover, .menu1 a:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: white;
+}
+.menu2 li:hover, .menu2 a:hover{
+    transform: scale(1.1);
+    color: white;
+    transition: 1s;
+
+}
+
+span:first-of-type{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+    
+
+.productos img{
+    display: block;
+
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.productos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.productos p{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    margin-left: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid palegreen;
+}
+
+.productos div{
+    background-color: white;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+p .precio{
+    display: block;
+    width: 100px;
+
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+
+  }
+
+
+  .login-container{
+    background-color: white;
+
+    display: flex;
+    width: 650px;
+    height: auto;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  }
+  
+
+  .register, .login{
+    flex: 1;
+  }
+  
+  
+  .register{
+    padding: 40px;
+    
+  }
+  
+
+  .register h2{
+    color: palegreen;
+    margin-bottom: 30px;
+  }
+  
+
+  .register input{
+    
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: palegreen;
+  }
+  
+  
+
+  .register .submit{
+    width: auto;
+    padding: 10px;
+    background-color: palegreen;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+  }
+  
+  
+
+  .login{
+    padding: 40px;
+  }
+  
+
+  .login h2{
+    color: palegreen;
+    margin-bottom: 45px;
+  }
+  
+
+  .login button{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+
+  .login .facebook{
+    background: #3b5999;
+    border-style: none;
+    color: #fff;
+  }
+  
+
+  .login .twitter{
+    background: #55acef;
+    border-style: none;
+    color: #fff;
+  }
+  
+  
+  .login .correo{
+    background: #33d4ce;
+    border-style: none;
+    color: #fff;
+  }
+
+
+  .imagen-mapa{
+    
+    margin-left: 200px;
+    width: 70%;
+  }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 70px;
+    margin: 0;
+    color: tan;
+}
+
+.formulario-contacto {
+    color:white;    
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .formulario-contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario-contacto .grupo {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+  }
+  
+  .formulario-contacto label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 100;
+    opacity: 100%;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 0.75rem;
+    position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+    opacity: 10%;
+    z-index: 100;
+  }
+  
+  .formulario-contacto button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 100;
+    margin-top: -10px;
+
+  }
+  
+  .formulario-contacto button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  .formulario-contacto[select]{
+    position: relative;
+    z-index: 100;
+    color: white;
+  }
+
+ .imagen-form {
+    margin-bottom: 100px;
+    position: absolute;
+    opacity: 30%;
+    max-width: 550px;
+    height: 570px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left:500px;
+    border-radius: 5px;
+    padding-bottom: 100px;
+    z-index: 50;
+  }
+
+footer div p:nth-of-type(1){
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p{
+    cursor: pointer;
+}
